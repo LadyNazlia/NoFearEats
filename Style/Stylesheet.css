@@ -22,7 +22,7 @@
 }
 
 .brand-title{
-    font-size: 1.5rem;
+    font-size: 1.0rem;
     margin: 0.5rem;
     background-color: brown;
     font-family: Arial, Helvetica, sans-serif;
@@ -55,13 +55,24 @@
 body{
     padding: 0;
     margin: 0;
+    
 }
 
+#construction{
+    height:25%;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    display: block;
+}
 
 p{
     margin-left: 175px;
     margin-right: 175px;
     font-size:18px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1{
@@ -69,14 +80,16 @@ h1{
     font-size: 100px;
     font-weight: bolder;
     margin-bottom: 0px;
-    margin-top: 30px;
+    margin-top: 50px;
     text-align: center;
 }
 
 .subtitle{
     text-align: center;
     margin-top: 0px;
+    margin-bottom: 30px;
     font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h3{
@@ -92,6 +105,8 @@ footer{
     width:100%;
     margin: 0;
     padding: 0;
+    margin-top: 100px;
+    
 }
 #footerImg {
     position: inherit;
@@ -152,7 +167,5 @@ footer{
         display: flex;
     }
 
-    .container {
-        
-    }
+    
 }
